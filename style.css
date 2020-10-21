@@ -1,0 +1,69 @@
+html {height:100%;
+}
+body{
+    background-image:url(Img/moritz-mentges.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color: rgb(54, 56, 58);
+    color: rgb(255, 255, 255);
+}
+.container{
+    width:1024px;
+    margin:0 auto;
+}
+header{
+    min-height:40px;
+    text-align:center;
+    font-size: 1rem;
+    background-color: rgba(37, 44, 4, 0.397);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    border:2px solid rgba(129, 128, 126, 0.671)
+}
+.stmntbutton {
+    background-color:rgba(240, 224, 135, 0.123);
+    text-align:center;
+    padding:30px;
+    margin:40px auto;
+    display:block;
+    border-radius:20px;
+    border:2px solid rgba(129, 128, 126, 0.671)
+}
+main{
+    background-color:rgba(129, 128, 126, 0.116);
+    min-height:300px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1.44rem;
+    text-align:center;
+    line-height:1.8rem;
+    padding:100px;
+    margin:30px 0px;
+    border-radius:20px;
+    border:2px solid rgba(129, 128, 126, 0.671);
+}
+        
+footer{
+    display:flex;
+    justify-content: space-between;
+}
+.ftrbutton{
+    background-color:rgba(224, 240, 233, 0.205);
+    padding:20px 20px;
+    text-align: center;
+    border-radius:18px;
+    border:2px solid rgba(129, 128, 126, 0.671)
+}
+
+a{
+    color: rgb(238, 238, 238);
+    font-size:1.6rem;
+    padding:0 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-weight:700;
+}
+
+.stmntbutton:hover, .ftrbutton:hover {
+    background-color: rgb(18, 128, 118);transition-duration:300ms;
+}
